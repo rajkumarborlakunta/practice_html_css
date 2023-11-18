@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+}
+form{
+    border: 2px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 600px;
+    width: 500px;
+    background-color: aqua;
+}
+label{
+    margin-right: 20px;
+}
+.form h1{
+    text-align: center;
+}
+form .firstname{
+    padding: 10px;
+}
+.firstname input{
+    width: 70%;
+    height: 20px;
+}
+form .dob{
+    padding: 10px;
+}
+.dob input{
+    width: 70%;
+    height: 20px;
+}
+form .gender{
+    padding: 10px;
+}
+form .number{
+    padding: 10px;
+}
+form .education{
+    padding: 10px;
+}
+form .education select{
+    width: 200px;
+}
+form .btn{
+    padding: 10px;
+}
+.btn{
+    display: inline-block;
+    margin: auto;
+}
